@@ -4,7 +4,8 @@
   "description": "Server side of Cloud Disk app",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -17,8 +18,10 @@
   },
   "homepage": "https://github.com/DANLEP/cloud-disk-server#readme",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "config": "^3.3.9",
     "express": "^4.18.2",
+    "express-validator": "^7.0.1",
     "mongoose": "^7.4.1"
   },
   "devDependencies": {
