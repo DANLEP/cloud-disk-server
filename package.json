@@ -1,0 +1,19 @@
+{
+  "name": "cloud-storage-server",
+  "version": "1.0.0",
+  "description": "Server side of Cloud Disk app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DANLEP/cloud-disk-server.git"
+  },
+  "author": "Daniil Movchan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DANLEP/cloud-disk-server/issues"
+  },
+  "homepage": "https://github.com/DANLEP/cloud-disk-server#readme"
+}
